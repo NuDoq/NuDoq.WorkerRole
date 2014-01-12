@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ServiceConfiguration serviceName="NuDoq.Azure" 
                       xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration"
-                      osFamily="2" osVersion="*" 
+                      osFamily="3" osVersion="*" 
                       schemaVersion="2013-10.2.2">
     <Role name="NuDoq.WorkerRole">
         <Instances count="1" />
